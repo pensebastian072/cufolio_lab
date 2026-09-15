@@ -1,0 +1,5 @@
+# CPU-only, minimal. No CVXPY / cuFOLIO / cuML / cuOpt yet — the allocator is a
+# variance-only stub. Add the optimizer stack in an isolated venv when the
+# research gate justifies it (see CLAUDE.md rule 3-5).
+numpy>=1.26
+pytest>=8.0
